@@ -1,2 +1,2 @@
 # WorkoutTracker
-Workout Tracker to put into practice Clean Architecture and DDD principles
+WorkoutTracker is a Clean Architecture–based .NET 8 application that allows users to create, organize, and track workouts, exercises, and progress over time. The app is structured for scalability, testability, and clear separation of concerns.
