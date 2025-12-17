@@ -1,0 +1,52 @@
+########################################
+# .NET build artifacts
+########################################
+bin/
+obj/
+out/
+*.user
+*.suo
+*.cache
+*.log
+*.pdb
+*.mdb
+*.ilk
+*.ipch
+
+########################################
+# Rider / JetBrains
+########################################
+.idea/
+*.sln.iml
+
+########################################
+# Visual Studio
+########################################
+.vs/
+*.csproj.user
+
+########################################
+# EF Core Migrations Snapshots (optional)
+########################################
+**/Migrations/*Designer.cs
+**/Migrations/*Snapshot.cs
+
+########################################
+# VS Code
+########################################
+.vscode/
+.history/
+
+########################################
+# System/OS files
+########################################
+.DS_Store
+Thumbs.db
+
+########################################
+# User secrets and environment files
+########################################
+.env
+secrets.json
+appsettings.Development.json
+appsettings.Local.json
